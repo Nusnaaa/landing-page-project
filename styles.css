@@ -45,3 +45,21 @@ ul {
     display: flex;
     gap: 10px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-and-button button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    border-style: none;
+}
