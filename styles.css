@@ -10,6 +10,22 @@ body {
     color: #F9FAF8;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.section-four {
+    padding: 10% 10%;
+}
+
+/* Section 1 styles */
+
 header h3 {
     font-size: 24px;
 }
@@ -17,10 +33,6 @@ header h3 {
 header p {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.section-three {
-    background-color: #E5E7EB;
 }
 
 .quote {
@@ -62,4 +74,64 @@ ul {
     box-shadow: none;
     outline: none;
     border-style: none;
+}
+
+/* Section 2 styles */
+
+.images-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    gap: 10px;
+}
+
+.img-container img {
+    display: flex;
+    width: 200px;
+    height: 250px;
+}
+
+/* Section 4 styles */
+
+.section-four .rectangle {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.section-four button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: solid;
+    border-style: none;
+    align-self: center;
+}
+
+.section-four h6, .section-four p {
+    margin: 5px;
+}
+
+.section-four h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-four .text {
+    padding: 30px;
 }
