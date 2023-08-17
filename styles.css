@@ -7,36 +7,31 @@ body {
     margin: 0;
 }
 
-.section-four {
-    padding: 10% 10%;
-}
-
 /* Section 1 styles */
 
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h3 {
     font-size: 24px;
 }
 
-header p {
+header div ul {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.quote {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .header-links {
@@ -52,8 +47,14 @@ ul {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    padding: 70px 0;
+}
+
+.text-and-button p {
+    max-width: 700px;
 }
 
 .text-and-button button {
@@ -66,6 +67,11 @@ ul {
     box-shadow: none;
     outline: none;
     border-style: none;
+}
+
+.container img {
+    width: 350px;
+    height: auto;
 }
 
 /* Section 2 styles */
@@ -95,6 +101,9 @@ ul {
     display: flex;
     width: 200px;
     height: 250px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
 
 /* Section 3 styles */
@@ -110,10 +119,15 @@ ul {
 .section-three .quote-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
-    padding: 20px;
-    max-width: 1000px;
+    padding: 100px;
+    max-width: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote-person, .quote  {
@@ -133,6 +147,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10% 10%;
 }
 
 .section-four .rectangle {
@@ -142,7 +157,7 @@ ul {
     justify-content: space-around;
     border-radius: 5px;
     padding: 50px 100px;
-    gap: 10px;
+    gap: 80px;
 }
 
 .section-four button {
